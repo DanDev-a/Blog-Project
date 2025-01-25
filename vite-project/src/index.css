@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #222;
+    color: #ddd;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --mainColor: #076492;
+    --mainColorLight: #3589b3;
+    --secondaryColor: #61034d;
+    --transparentColor: #07649299;
+    --textColor: #eeeeee;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
